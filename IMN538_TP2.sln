@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TP2", "TP2\IMN538_TP2.vcxproj", "{DAB33D11-6A05-493E-B58B-46EF8D30D011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB33D11-6A05-493E-B58B-46EF8D30D011}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAB33D11-6A05-493E-B58B-46EF8D30D011}.Debug|Win32.Build.0 = Debug|Win32
+		{DAB33D11-6A05-493E-B58B-46EF8D30D011}.Release|Win32.ActiveCfg = Release|Win32
+		{DAB33D11-6A05-493E-B58B-46EF8D30D011}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

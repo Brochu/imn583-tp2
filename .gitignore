@@ -26,3 +26,12 @@
 *.exe
 *.out
 *.app
+
+
+imn538-tp2.pdf
+TP2/Resources/
+*.user
+*.vcxproj
+*.vcproj
+*.filters
+*.DS_Store
