@@ -35,3 +35,6 @@ TP2/Resources/
 *.vcproj
 *.filters
 *.DS_Store
+*.opensdf
+*.sdf
+*.suo
