@@ -38,3 +38,8 @@ TP2/Resources/
 *.opensdf
 *.sdf
 *.suo
+*.tlog
+*.ilk
+*.pdb
+*.log
+*.idb
