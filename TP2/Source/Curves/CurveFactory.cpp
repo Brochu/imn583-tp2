@@ -1,6 +1,7 @@
 #include "CurveFactory.h"
 
 #include "JumpInterp.h"
+#include "LinearInterp.h"
 
 Curve* CurveFactory::CreateCurve(CurveFactory::CurveType ae_Type)
 {
@@ -11,7 +12,7 @@ Curve* CurveFactory::CreateCurve(CurveFactory::CurveType ae_Type)
 		break;
 
 	case Type_Linear:
-		return NULL;
+		return new LinearInterp();
 		break;
 
 	case Type_CatmullRom:
