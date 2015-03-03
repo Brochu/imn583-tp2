@@ -1,4 +1,3 @@
-#include <iostream>
 #include "LinearInterp.h"
 
 void LinearInterp::GetPointTangeante(float aProgression, Vector3 &aPoint, Vector3 &aTangeante)
@@ -10,10 +9,9 @@ void LinearInterp::GetPointTangeante(float aProgression, Vector3 &aPoint, Vector
     int PointMin = (int)(aProgression*(mto_CtrlPoints.size() - 1));
     int PointNext = (PointMin + 1) % mto_CtrlPoints.size();
 
-    float currProgression = aProgression * (mto_CtrlPoints.size() - 1);
-    float normProgression = currProgression - PointMin;
+    float u = (aProgression * (mto_CtrlPoints.size() - 1)) - PointMin;
 
-    aPoint = ((1 - normProgression) * mto_CtrlPoints[PointMin]) + ((normProgression) * mto_CtrlPoints[PointNext]);
+    aPoint = ((1 - u) * mto_CtrlPoints[PointMin]) + ((u)* mto_CtrlPoints[PointNext]);
 
     aTangeante = mto_CtrlPoints[PointMin] - mto_CtrlPoints[PointNext];
 }
