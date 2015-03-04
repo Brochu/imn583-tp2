@@ -3,6 +3,7 @@
 #include "JumpInterp.h"
 #include "LinearInterp.h"
 #include "CatmullRomInterp.h"
+#include "CatmullRomReparamInterp.h"
 
 Curve* CurveFactory::CreateCurve(CurveFactory::CurveType ae_Type)
 {
@@ -21,7 +22,7 @@ Curve* CurveFactory::CreateCurve(CurveFactory::CurveType ae_Type)
 		break;
 
 	case Type_CatmullRomWReparam:
-		return NULL;
+		return new CatmullRomReparamInterp();
 		break;
 
 	default:
