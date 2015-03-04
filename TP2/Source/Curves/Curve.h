@@ -1,3 +1,5 @@
+// Alexandre Brochu - 12 055 465
+
 #ifndef CURVE_H_
 #define CURVE_H_
 

@@ -1,3 +1,5 @@
+// Alexandre Brochu - 12 055 465
+
 #include "JumpInterp.h"
 
 void JumpInterp::GetPointTangeante(float aProgression, Vector3 &aPoint, Vector3 &aTangeante)

@@ -1,3 +1,5 @@
+// Alexandre Brochu - 12 055 465
+
 #ifndef JUMPINTERP_H_
 #define JUMPINTERP_H_
 

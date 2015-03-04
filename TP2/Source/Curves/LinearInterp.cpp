@@ -1,3 +1,5 @@
+// Alexandre Brochu - 12 055 465
+
 #include "LinearInterp.h"
 
 void LinearInterp::GetPointTangeante(float aProgression, Vector3 &aPoint, Vector3 &aTangeante)

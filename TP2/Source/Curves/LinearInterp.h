@@ -1,3 +1,5 @@
+// Alexandre Brochu - 12 055 465
+
 #ifndef LINEARINTERP_H_
 #define LINEARINTERP_H_
 

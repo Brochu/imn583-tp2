@@ -1,3 +1,5 @@
+// Alexandre Brochu - 12 055 465
+
 #include "CurveFactory.h"
 
 #include "JumpInterp.h"

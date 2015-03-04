@@ -1,3 +1,5 @@
+// Alexandre Brochu - 12 055 465
+
 #ifndef CATMULLROMREPARAMINTERP_H_
 #define CATMULLROMREPARAMINTERP_H_
 

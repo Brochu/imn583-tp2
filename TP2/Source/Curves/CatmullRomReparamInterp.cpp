@@ -1,3 +1,5 @@
+// Alexandre Brochu - 12 055 465
+
 #include <iostream>
 #include "CatmullRomReparamInterp.h"
 
