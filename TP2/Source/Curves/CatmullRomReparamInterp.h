@@ -13,7 +13,7 @@ public:
     virtual void SetPointsControle(const vector<Vector3> &aPoints);
 
 private:
-    int sampleCount = 51;
+    int sampleCount = 50;
     typedef struct usMapping {
         float u;
         float s;

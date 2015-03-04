@@ -1,3 +1,4 @@
+#include <iostream>
 #include "CatmullRomReparamInterp.h"
 
 CatmullRomReparamInterp::CatmullRomReparamInterp()
